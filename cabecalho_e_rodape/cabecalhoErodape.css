@@ -75,3 +75,9 @@ li:hover {
 
 }
 
+.btn{
+    border-radius: 32px;
+    background-color: orangered;
+    width: 250px;
+    color: aliceblue;
+}

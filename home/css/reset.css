@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--preto);
+    color: var(--fonte);
+
+}
+
+body {
+    background-image: url("../img/FrontEnders-background.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+#root{
+    --botao:orangered;
+    --fonte:aliceblue;
+    --preto:black;
+}
+#cabecalho{
+    width: 100%;
+}
+#rodape{
+    position: absolute;
+	bottom: 0;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   width: 100%;
+   height: 5%;
+}

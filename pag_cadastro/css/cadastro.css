@@ -1,0 +1,44 @@
+.btn{
+    border-radius: 32px;
+    background-color: var(--botao);
+    width: 250px;
+    color: var(--fonte);
+    margin-top: 30px;
+}
+#conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height:70%;
+}
+#leftSide{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#rightSide{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.image-home{
+
+    height: 300px;
+}
+
+h2{
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 2.5rem;
+}
+#forms{
+    
+    width: 500px;
+    margin: 40px 110px;
+}

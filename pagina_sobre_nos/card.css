@@ -1,0 +1,59 @@
+body {
+    height: 70vh;
+    font-family: poppins;
+}
+
+.container {
+    margin-top: 15%;
+}
+
+.img-text {
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 40% 5%;
+    background: #262626;
+    color: #fff;
+    border-radius:15px;
+}
+
+.img-text h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.img-text p {
+    font-size: 14px;
+}
+
+.img-area {
+}
+
+#carouselExampleIndicators {
+        width: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

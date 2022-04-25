@@ -16,6 +16,12 @@ function validarImputs() {
 
     if(senha.value !== senhaDois.value) { 
        const msg = document.getElementById('small')
-       msg.innerHTML = "As senhas não conferem";
+       msg.innerHTML = "As senhas não conferem";    
+    } else if (senha.value === senhaDois.value){
+       document.getElementById("demo").addEventListener("click", myFunction);
     }
 }
+
+function myFunction() {
+   window.location.href =  "../pag_cadastro/pag_cadastro_segurario.html"
+  }

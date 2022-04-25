@@ -1,0 +1,42 @@
+.btn{
+    border-radius: 32px;
+    background-color: orangered;
+    width: 250px;
+    color: aliceblue;
+}
+      
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      .card{
+            background-color: #d3d3d3;
+            background-repeat: no-repeat;
+            
+            }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      #ano{
+          display: flex;
+          flex-direction: row;
+          justify-content: end;
+          width: 80%;
+          font-size: 20px;
+      }
+      li{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+      }
+
+      #negacao{
+        list-style-image: url('./img/multiplicar.png');
+      }

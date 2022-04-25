@@ -107,7 +107,9 @@ input[type=password]:focus {
 p {
     margin-top: 5px;
 }
-
+input::placeholder {
+    color: aliceblue;
+  }
 .span {
     color: var(--botao);
 }

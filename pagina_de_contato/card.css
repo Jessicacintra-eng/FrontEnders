@@ -69,7 +69,7 @@
 .conteudodafrente {
     background-color: #bbb;
     color: black;
-    background-image: url("../")
+    
 }
 
 .conteudodetras {
@@ -101,16 +101,33 @@ margin-top: calc(-1 * var(--bs-gutter-y));
 margin-right: calc(-.5 * var(--bs-gutter-x));
 margin-left: calc(-.5 * var(--bs-gutter-x));
 
-
-
-
 }
 
+icon {
+    display: inline-block;
+    font-size: 44px;
+    animation: float 5s ease-in-out infinite;
+}
 
+.ri-facebook-circle-line {
+    animation-delay: 1s;
+}
 
+.ri-whatsapp-line {
+    animation-delay: 2s;
+}
 
-
-
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
 
 
 

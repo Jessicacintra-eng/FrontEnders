@@ -117,21 +117,21 @@ margin-left: calc(-.5 * var(--bs-gutter-x));
 
 .ri-instagram-line {
 
-    background: #f09433; 
+    /* background: #f09433; 
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 ); */
 }
 
 .ri-linkedin-box-line {
     animation-delay: 1s;
-    background: #0e76a8;
+    /* background: #0e76a8; */
 }
 
 .ri-github-line {
     animation-delay: 2s;
-    background: #171515;
+    /* background: #171515; */
 }
 
 @keyframes float {

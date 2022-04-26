@@ -29,25 +29,39 @@
         </figure>
 
     </section>
-    <section id="">
         <form id="forms">
-          <div class="row g-3">
+          <div class="row">
             <div class="form-group">
               <label for="exampleInputRg">RG</label>
-              <input type="RG" class="form-control" id="rg" name="Rg" placeholder="00.000.000-00" maxlength="13" pattern="^\d{2}[- .]?\d{3}[- .]?\d{3}[- .]?\d{1}$" required>
+              <input type="RG"  class="form-control form-control-sm" id="rg" name="Rg" placeholder="00.000.000-00" aria-label=".form-control-sm example" maxlength="13" pattern="^\d{2}[- .]?\d{3}[- .]?\d{3}[- .]?\d{1}$" required>
             </div>
             <div class="form-group">
               <label for="exampleInputCpf">CPF</label>
-              <input type="CPF" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" maxlength="14" pattern="(^\d{3}\x2E\d{3}\x2E\d{3}\x2D\d{2}$)" required>
+              <input type="CPF"  class="form-control form-control-sm" id="cpf" name="cpf" placeholder="000.000.000-00" aria-label=".form-control-sm example" maxlength="14" pattern="(^\d{3}\x2E\d{3}\x2E\d{3}\x2D\d{2}$)" required>
             </div>
             <div class="form-group">
               <label for="exampleInputCep">CEP</label>
-              <input type="CEP" class="form-control" id="cep" name="cep" placeholder="00000-000" maxlength="9" pattern="^\d{5}(-\d{3})?$" required>
+              <input type="CEP"  class="form-control form-control-sm" id="cep" name="cep" placeholder="00000-000" aria-label=".form-control-sm example" maxlength="9" pattern="^\d{5}(-\d{3})?$" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputCep">Rua</label>
+              <input type="text" class="form-control form-control-sm" id="rua" name="rua" placeholder="Nome da sua rua " aria-label=".form-control-sm example" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputCep">Bairro</label>
+              <input type="text" class="form-control form-control-sm" id="bairro" name="bairro" placeholder="Nome do seu bairro" aria-label=".form-control-sm example" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputCep">Cidade</label>
+              <input type="text" class="form-control form-control-sm" id="cidade" name="cidade" placeholder="Nome da sua cidade" aria-label=".form-control-sm example" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputCep">Estado</label>
+              <input type="text" class="form-control form-control-sm" id="estado" name="estado" placeholder="Nome do seu estado" aria-label=".form-control-sm example" required>
             </div>
           </div>
           <button type="submit" class="btn">Assinar</button>
         </form>
-    </section>
   </main>
 
 

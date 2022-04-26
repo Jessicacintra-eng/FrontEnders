@@ -3,7 +3,7 @@
     background-color: var(--botao);
     width: 250px;
     color: var(--fonte);
-    margin-top: 30px;
+    margin-top: 10px;
 }
 #conteudo{
     display: flex;
@@ -40,5 +40,5 @@ h2{
 #forms{
     
     width: 500px;
-    margin: 40px 110px;
+    margin: 20px 110px;
 }

@@ -67,13 +67,17 @@
 }
 
 .conteudodafrente {
-    background-color: #bbb;
+    background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
     color: black;
-    background-image: url("../")
+    
 }
 
 .conteudodetras {
-    background-color: #cab762;
+    background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
     color: white;
     transform: rotateY(180deg);
     display: flex;
@@ -86,6 +90,8 @@
 .caixa1 {
     width: 300px;
     height: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 img {
     width: 300px;
@@ -101,20 +107,56 @@ margin-top: calc(-1 * var(--bs-gutter-y));
 margin-right: calc(-.5 * var(--bs-gutter-x));
 margin-left: calc(-.5 * var(--bs-gutter-x));
 
+}
 
+.icon {
+    display: inline-block;
+    font-size: 44px;
+    animation: float 5s ease-in-out infinite;
+}
 
+.ri-instagram-line {
 
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.ri-linkedin-box-line {
+    animation-delay: 1s;
+    background: #0e76a8;
+}
+
+.ri-github-line {
+    animation-delay: 2s;
+    background: #171515;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
 }
 
 
+.cartasT{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 36px;
+    gap: 50px;
+}
 
-
-
-
-
-
-
-
-
+p {
+    margin-top: 0;
+margin-bottom: 5rem;
+}
 
 

@@ -10,13 +10,52 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Produto</title>
 <link rel="stylesheet" href="../home/css/home.css">
-<link rel="stylesheet" href="../home/css/reset.css">
 <link rel="stylesheet" href="./produto.css">
+<link rel="stylesheet" href="../home/css/reset.css">
 </head>
 <body>
-    <header >
-        <iframe src="../cabecalho_e_rodape/cabecalho.html" frameborder="0" id="cabecalho"></iframe>
-    </header>
+  <header class="cabecalho">
+    <div id="logo" class="cabecalho-logo">
+      <figure class="cabecalho-image">
+        <img src="../home/img/FrontEnders-logo.svg" alt="Logo da empresa FrontEnders">
+      </figure>
+      <div class="cabecalho-textos">
+        <h1 class="cabecalho-titulo">FrontEnders</h1>
+        <h6 class="cabecalho-slogan">Tech solutions</h6>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg  ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 teste">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" id="link-home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pagina_sobre_nos/pagina_sobre_nos.html">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pag_cadastro/pag_cadastro_primario.html">Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pag_assinaturas/assinatura.html">Detalhes e planos de assinatura</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="login">
+      <button type="button" class="btn" id="btn-login">Login</button>
+    </div>
+  </header>
     
     <main>
       <div id="texto" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center ">

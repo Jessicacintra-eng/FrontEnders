@@ -42,7 +42,7 @@ body {
     height: 5%;
 }
 
-/* ****************** ESTILO DO cABEÇALHO **************/
+/* ****************** ESTILO DO CABEÇALHO **************/
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -112,4 +112,4 @@ li:hover {
     width: 250px;
     color: aliceblue;
 }
-/* ****************** ESTILO DO cABEÇALHO **************/
+/* ****************** ESTILO DO CABEÇALHO **************/

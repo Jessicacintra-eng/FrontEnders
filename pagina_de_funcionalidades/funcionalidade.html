@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="./funcionalidade.css">
-  <link rel="stylesheet"  href="../home/css/reset.css">
+  <link rel="stylesheet" href="../home/css/reset.css">
 
 
   <link rel="icon" href="../home/img/FrontEnders-logo.svg">
@@ -18,22 +18,290 @@
 </head>
 
 <body id="root">
-  <iframe src="../cabecalho_e_rodape/cabecalho.html" frameborder="0" id="cabecalho"></iframe>
+
 
   <main id="main-container">
-   <section >
-       <h2>Insira seu site aqui:</h2>
-       <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Seu site aqui" aria-label="Recipient's username" aria-describedby="button-addon2">
+
+    <div class="main-container">
+
+      <!-- HEADER -->
+      <div class="block cabecalho header-perfil">
+
+        <div id="logo" class="cabecalho-logo">
+          <figure class="cabecalho-image">
+            <img src="../home/img/FrontEnders-logo.svg" alt="Logo da empresa FrontEnders">
+          </figure>
+          <div class="cabecalho-textos">
+            <h1 class="cabecalho-titulo">FrontEnders</h1>
+            <h6 class="cabecalho-slogan">Tech solutions</h6>
+          </div>
+        </div>
+        <ul class="header-menu horizontal-list">
+          <li>
+            <a class="header-menu-tab" href="#1"><span class="icon entypo-cog scnd-font-color"></span>Settings</a>
+          </li>
+          <li>
+            <a class="header-menu-tab" href="#2"><span class="icon fontawesome-user scnd-font-color"></span>Account</a>
+          </li>
+          <li>
+            <a class="header-menu-tab" href="#3"><span
+                class="icon fontawesome-envelope scnd-font-color"></span>Messages</a>
+            <a class="header-menu-number" href="#4">5</a>
+          </li>
+          <li>
+            <a class="header-menu-tab" href="#5"><span
+                class="icon fontawesome-star-empty scnd-font-color"></span>Favorites</a>
+          </li>
+        </ul>
+        <div class="profile-menu">
+          <p>Me <a href="#26"><span class="entypo-down-open scnd-font-color"></span></a></p>
+          <div class="profile-picture small-profile-picture">
+            <img width="40px" alt="Anne Hathaway picture" src="../pagina_de_contato/image/jessica.jpeg">
+          </div>
+        </div>
+      </div>
+
+      <!-- LEFT-CONTAINER -->
+      <div class="left-container container">
+        <div class="profile block">
+          <!-- PROFILE (MIDDLE-CONTAINER) -->
+          <a class="add-button" href="#28"><span class="icon entypo-plus scnd-font-color"></span></a>
+          <div class="profile-picture big-profile-picture clear">
+            <img width="150px" alt="Anne Hathaway picture" src="../pagina_de_contato/image/jessica.jpeg">
+          </div>
+          <h1 class="user-name">Jessica Cintra</h1>
+          <div class="profile-description">
+            <p class="scnd-font-color">Web dev em formação</p>
+          </div>
+
+
+        </div>
+        <div class="menu-box block">
+          <!-- MENU BOX (LEFT-CONTAINER) -->
+          <h2 class="titular">MENU BOX</h2>
+          <ul class="menu-box-menu">
+            <li>
+              <a class="menu-box-tab" href="#6"><span class="icon fontawesome-envelope scnd-font-color"></span>Messages
+                <div class="menu-box-number">24</div></a>
+            </li>
+            <li>
+              <a class="menu-box-tab" href="#8"><span class="icon entypo-paper-plane scnd-font-color"></span>Invites<div
+                  class="menu-box-number">3</div></a>
+            </li>
+            <li>
+              <a class="menu-box-tab" href="#10"><span class="icon entypo-calendar scnd-font-color"></span>Events<div
+                  class="menu-box-number">5</div></a>
+            </li>
+            <li>
+              <a class="menu-box-tab" href="#12"><span class="icon entypo-cog scnd-font-color"></span>Account
+                Settings</a>
+            </li>
+            <li>
+              <a class="menu-box-tab" href="#13">
+                <sapn class="icon entypo-chart-line scnd-font-color"></sapn>Statistics
+              </a>
+            </li>
+          </ul>
+        </div>
+
+
+
+      </div>
+
+      <!-- MIDDLE-CONTAINER -->
+      <div class="middle-container container">
+        <div class="line-chart-block block clear">
+          <!-- LINE CHART BLOCK (LEFT-CONTAINER) -->
+          <div class="line-chart">
+            <!-- LINE-CHART by @kseso https://codepen.io/Kseso/pen/phiyL -->
+            <div class='grafico'>
+              <ul class='eje-y'>
+                <li data-ejeY='30'></li>
+                <li data-ejeY='20'></li>
+                <li data-ejeY='10'></li>
+                <li data-ejeY='0'></li>
+              </ul>
+              <ul class='eje-x'>
+                <li>Jan</li>
+                <li>Fev</li>
+                <li>Mar</li>
+              </ul>
+              <span data-valor='25'>
+                <span data-valor='8'>
+                  <span data-valor='13'>
+                    <span data-valor='5'>
+                      <span data-valor='23'>
+                        <span data-valor='12'>
+                          <span data-valor='15'>
+                            <span data-valor='3'>
+                              <span data-valor='8'>
+                                <span data-valor='13'>
+                                  <span data-valor='5'>
+                                    <span data-valor='15'>
+                                      <span data-valor='3'>
+                                        <span data-valor='8'>
+                                          <span data-valor='25'>
+                                            <span data-valor='13'>
+                                            </span></span></span></span></span></span></span>
+                              </span></span></span></span></span></span></span> </span></span>
+            </div>
+            <!-- END LINE-CHART by @kseso https://codepen.io/Kseso/pen/phiyL -->
+          </div>
+          <ul class="time-lenght horizontal-list">
+            <li><a class="time-lenght-btn" href="#14">Week</a></li>
+            <li><a class="time-lenght-btn" href="#15">Month</a></li>
+            <li><a class="time-lenght-btn" href="#16">Year</a></li>
+          </ul>
+          <ul class="month-data clear">
+            <li>
+              <p>Jan<span class="scnd-font-color"> 2022</span></p>
+              <p><span class="entypo-plus increment"> </span>21<sup>%</sup></p>
+            </li>
+            <li>
+              <p>Fev<span class="scnd-font-color"> 2022</span></p>
+              <p><span class="entypo-plus increment"> </span>48<sup>%</sup></p>
+            </li>
+            <li>
+              <p>Mar<span class="scnd-font-color"> 2022</span></p>
+              <p><span class="entypo-plus increment"> </span>35<sup>%</sup></p>
+            </li>
+          </ul>
+        </div>
+        <div class="donut-chart-block block">
+          <!-- DONUT CHART BLOCK (LEFT-CONTAINER) -->
+          <h2 class="titular">Estatísticas</h2>
+          <section class="donut-org">
+            <div class="donut-chart">
+              <!-- DONUT-CHART by @kseso https://codepen.io/Kseso/pen/phiyL -->
+              <div id="porcion1" class="recorte">
+                <div class="quesito ios" data-rel="21"></div>
+              </div>
+              <div id="porcion2" class="recorte">
+                <div class="quesito mac" data-rel="39"></div>
+              </div>
+              <div id="porcion3" class="recorte">
+                <div class="quesito win" data-rel="31"></div>
+              </div>
+              <div id="porcionFin" class="recorte">
+                <div class="quesito linux" data-rel="9"></div>
+              </div>
+              
+              <!-- END DONUT-CHART by @kseso https://codepen.io/Kseso/pen/phiyL -->
+              <p class="center-date">JAN<br><span class="scnd-font-color">2022</span></p>
+            </div>
+             <div class="donut-chart">
+              <!-- DONUT-CHART by @kseso https://codepen.io/Kseso/pen/phiyL -->
+              <div id="porcion1" class="recorte">
+                <div class="quesito ios" data-rel="21"></div>
+              </div>
+              <div id="porcion2" class="recorte">
+                <div class="quesito mac" data-rel="39"></div>
+              </div>
+              <div id="porcion3" class="recorte">
+                <div class="quesito win" data-rel="31"></div>
+              </div>
+              <div id="porcionFin" class="recorte">
+                <div class="quesito linux" data-rel="9"></div>
+              </div>
+              
+              <!-- END DONUT-CHART by @kseso https://codepen.io/Kseso/pen/phiyL -->
+              <p class="center-date">FEV<br><span class="scnd-font-color">2022</span></p>
+            </div>
+
+          </section>
+          <ul class="os-percentages horizontal-list">
+            <li>
+              <p class="ios os scnd-font-color">iOS</p>
+              <p class="os-percentage">21<sup>%</sup></p>
+            </li>
+            <li>
+              <p class="mac os scnd-font-color">Mac</p>
+              <p class="os-percentage">48<sup>%</sup></p>
+            </li>
+            <li>
+              <p class="linux os scnd-font-color">Linux</p>
+              <p class="os-percentage">9<sup>%</sup></p>
+            </li>
+            <li>
+              <p class="win os scnd-font-color">Win</p>
+              <p class="os-percentage">32<sup>%</sup></p>
+            </li>
+            <li class="facebook">
+              <p class="icon"><span class="zocial-facebook"></span></p>
+              <p class="number">248k</p>
+            </li>
+            <li class="twitter">
+              <p class="icon"><span class="zocial-twitter"></span></p>
+              <p class="number">30k</p>
+            </li>
+            <li class="googleplus">
+              <p class="icon"><span class="zocial-googleplus"></span></p>
+              <p class="number">124k</p>
+            </li>
+            <li class="mailbox">
+              <p class="icon"><span class="fontawesome-envelope"></span></p>
+              <p class="number">89k</p>
+            </li>
+          </ul>
+
+
+
+        </div>
+
+
+      </div>
+
+      <!-- RIGHT-CONTAINER -->
+
+      <div class="right-container container">
+        <div class="loading block">
+          <!-- LOADING (RIGHT-CONTAINER) -->
+          <div class="progress-bar downloading"></div>
+          <p><span class="icon fontawesome-cloud-download scnd-font-color"></span>Downloading...</p>
+          <p class="percentage">81<sup>%</sup></p>
+          <div class="progress-bar uploading"></div>
+          <p><span class="icon fontawesome-cloud-upload scnd-font-color"></span>Uploading...</p>
+          <p class="percentage">43<sup>%</sup></p>
+        </div>
+        <div class="report block">
+          <!-- JOIN NEWSLETTER (RIGHT-CONTAINER) -->
+          <h2 class="titular">Relatórios</h2>
+          <a class="subscribe button" href="#21">ACESSIBILIDADE</a>
+          <a class="subscribe button" href="#21">PARCIAL</a>
+          <a class="subscribe button" href="#21">COMPLETO</a>
+          <a class="subscribe button" href="#21">DESCRITIVO</a>
+        </div>
+
+        <div class="join-newsletter block">
+          <!-- JOIN NEWSLETTER (RIGHT-CONTAINER) -->
+          <h2 class="titular">JOIN THE NEWSLETTER</h2>
+          <div class="input-container">
+            <input type="text" placeholder="yourname@gmail.com" class="email text-input">
+            <div class="input-icon envelope-icon-newsletter"><span class="fontawesome-envelope scnd-font-color"></span>
+            </div>
+          </div>
+          <a class="subscribe button" href="#21">SUBSCRIBE</a>
+        </div>
+        
+
+
+
+      </div> <!-- end right-container -->
+    </div> <!-- end main-container -->
+    <section>
+      <h2>Insira seu site aqui:</h2>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Seu site aqui" aria-label="Recipient's username"
+          aria-describedby="button-addon2">
         <button class="btn btn-outline-secondary estilo" type="button" id="button-addon2">Button</button>
       </div>
 
-   </section>
-      
+    </section>
+
   </main>
 
-
-  <iframe src="../cabecalho_e_rodape/rodape.html" frameborder="0" id="rodape"></iframe>
+  <!-- 
+  <iframe src="../cabecalho_e_rodape/rodape.html" frameborder="0" id="rodape"></iframe> -->
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

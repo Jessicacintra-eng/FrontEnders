@@ -112,4 +112,10 @@ li:hover {
     width: 250px;
     color: aliceblue;
 }
+@media (max-width:426px){
+    .btn{
+        width: 70px;
+        color: aliceblue;
+    }
+}
 /* ****************** ESTILO DO CABEÇALHO **************/

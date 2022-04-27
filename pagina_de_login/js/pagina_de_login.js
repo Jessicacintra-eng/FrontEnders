@@ -58,7 +58,7 @@ $("input[type=password]").focus(function(){
 function validacredenciais() {
     const usuario = $("input[name=user]").val()
     const senha = $("input[type=password").val()
-    if (usuario.indexOf('@') != -1 && usuario.indexOf('@') >= 5 && senha == "1234") {
+    if (usuario.indexOf('@') != -1 && usuario.indexOf('@') >= 5 && senha == "12345678") {
         return true
     } else {
         return false

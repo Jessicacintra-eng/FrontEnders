@@ -37,8 +37,17 @@ h2{
     line-height: 1.2;
     font-size: 2.5rem;
 }
+
 #forms{
     
     width: 500px;
     margin: 20px 110px;
+}
+
+.visible {
+    display: flex;
+}
+
+.invisible {
+    display: none;
 }

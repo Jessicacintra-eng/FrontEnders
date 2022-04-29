@@ -1,4 +1,4 @@
-.btn{
+.btn-assinar{
     border-radius: 32px;
     background-color: orangered;
     width: 250px;
@@ -51,3 +51,15 @@
       #negacao{
         list-style-image: url('./img/multiplicar.png');
       }
+      @media(max-width: 426px) {
+        .cabecalho-logo {
+            display: none;
+        }
+    
+        .btn-assinar {
+            display: block ;
+        }
+    
+    
+        /* .menu{display: none;} */
+    }

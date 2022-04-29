@@ -251,7 +251,7 @@ a:hover{
         display: none;
     }
 
-    .btn {
+    .btn-login {
         display: none;
     }
 
@@ -260,3 +260,10 @@ a:hover{
 }
 
 /* ****************** ESTILO DO CABEÇALHO **************/
+/* ****************** ESTILO DO RODAPÉ **************/
+footer{
+    background-color: aliceblue;
+    bottom: 0; 
+    position:static;
+    color: black;
+}

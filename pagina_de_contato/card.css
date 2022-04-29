@@ -116,6 +116,11 @@ margin-left: calc(-.5 * var(--bs-gutter-x));
     font-size: 44px;
     animation: float 5s ease-in-out infinite;
 }
+.redes{
+    display: inline-block;
+    font-size: 44px;
+    animation: float 5s ease-in-out infinite;
+}
 
 /* .ri-instagram-line {
 

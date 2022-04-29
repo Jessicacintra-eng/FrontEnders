@@ -1,12 +1,20 @@
-$("#btn-login").click(function (e){
-    e.preventDefault();
-    console.log("oi")
-    window.location.assign("../pagina_de_login/pagina_de_login.html");
-     
-}
-)
-$("#link-home").click((e) => {
-    e.preventDefault();
-    console.log("oi")
-    window.location.assign("../index.htmll"); 
-})
+$(document).ready(function() {
+
+
+    var Menu = {
+
+        body: $('.menu'),
+        button: $('.button'),
+        tools: $('.tools')
+
+    };
+
+    Menu.button.click(function () {
+        Menu.body.toggleClass('menu--closed');
+        Menu.body.toggleClass('menu--open');
+        Menu.tools.toggleClass('tools--visible');
+        Menu.tools.toggleClass('tools--hidden');
+    });
+
+
+});

@@ -7,33 +7,92 @@
 <meta name="Description" content="Enter your description here"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="pricing.css" rel="stylesheet">
+<link rel="stylesheet" href="../cabecalho_e_rodape/cabecalhoErodape.css">
+<link rel="stylesheet" href="./assinaturas.css">
 <link rel="stylesheet" href="../home/css/reset.css">
+<link rel="icon" href="../home/img/FrontEnders-logo.svg">
+
 <title>Assinatura</title>
 </head>
 <body>
-  <iframe src="../cabecalho_e_rodape/cabecalho.html" frameborder="0" id="cabecalho"></iframe>
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assinaturas.css">
-   
-    
-    <!-- Custom styles for this template -->
-    <link href="pricing.css" rel="stylesheet">
-  </head>
-  <body>
-    
-<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-  <symbol id="check" viewBox="0 0 16 16">
-    <title>Check</title>
-    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
-  </symbol>
-</svg>
+ 
+  <header class="cabecalho">
+    <div id="logo" class="cabecalho-logo">
+      <figure class="cabecalho-image">
+        <img src="../home/img/FrontEnders-logo.svg" alt="Logo da empresa FrontEnders">
+      </figure>
+      <div class="cabecalho-textos">
+        <h1 class="cabecalho-titulo">FrontEnders</h1>
+        <h6 class="cabecalho-slogan">Tech solutions</h6>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg  ">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 teste">
+            <li class="nav-item">
+              <a class=" active" aria-current="page" href="../index.html" id="link-home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="../pag_sobre_produto/produto.html">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="../pag_cadastro/pag_cadastro.html">Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="../pag_assinaturas/assinaturas.html">Planos de assinatura</a>
+            </li>
+            <li class="nav-item">
+              <a class="" href="../pagina_de_contato/pagina_de_contato.html">Contatos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="menu menu--closed">
+
+      <div class="button">
+        <span> </span>
+        <span> </span>
+        <span> </span>
+      </div>
+
+      <div class="tools tools--hidden">
+        <a href="../index.html">
+          Home
+        </a>
+
+        <a href="../pag_sobre_produto/produto.html">
+          Sobre Nos
+        </a>
+
+        <a href="../pag_cadastro/pag_cadastro.html">
+          Cadastro
+        </a>
+
+        <a href="../pag_assinaturas/assinaturas.html">
+          Planos de assinatura
+        </a>
+
+        <a href="../pagina_de_contato/pagina_de_contato.html">
+          Contato
+        </a>
+      </div>
+    </div>
+    <div id="login">
+      <button type="button" class="btn btn-login" id="btn-login">Login</button>
+    </div>
+  </header>
 
 <div class="container py-3">
-  <header>
-    
-
-  </header>
+ 
 
   <main>
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
@@ -44,12 +103,12 @@
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title">R$ Free<small class="text-muted fw-light">/mês</small><br><small id="ano" class="text-muted fw-light">Free</small></h1>
-            <ul class=" mt-5 mb-4">
-              <li>Acesso Único</li>
-              <li>Relatório Parcial</li>
-              <li>Relatório de Opacidade</li>
-              <li><s>Relatório Completo para Download</s></li>
-              <li><s> Suporte de Profissionais</s></li>
+            <ul class=" mt-5 mb-4 listaPlanos">
+              <li class="itemPlanos">Acesso Único</li>
+              <li class="itemPlanos">Relatório Parcial</li>
+              <li class="itemPlanos">Relatório de Opacidade</li>
+              <li class="itemPlanos"><s>Relatório Completo para Download</s></li>
+              <li class="itemPlanos"><s> Suporte de Profissionais</s></li>
             </ul>
             <button type="button" class="btn">Assinar</button>
           </div>
@@ -64,12 +123,12 @@
         </div>
         <div class="card-body">
           <h1 class="card-title pricing-card-title">R$ 69,90<small class="text-muted fw-light">/mês</small><br><small id="ano" class="text-muted fw-light">R$ 838,80/ano</small></h1>
-          <ul class=" mt-5 mb-4">
-            <li>20 Acessos ao mês</li>
-            <li>Relatório Parcial</li>
-            <li>Relatório Parcial para Download</li>
-            <li><s>Relatório de estética</s></li>
-            <li><s>Suporte de Profissionais</s></li>
+          <ul class=" mt-5 mb-4 listaPlanos">
+            <li class="itemPlanos">20 Acessos ao mês</li>
+            <li class="itemPlanos">Relatório Parcial</li>
+            <li class="itemPlanos">Relatório Parcial para Download</li>
+            <li class="itemPlanos"><s>Relatório de estética</s></li>
+            <li class="itemPlanos"><s>Suporte de Profissionais</s></li>
           </ul>
           <button type="button" class="btn">Assinar</button>
         </div>
@@ -83,12 +142,12 @@
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title">R$ 149,90<small class="text-muted fw-light">/mês</small><br><small id="ano" class="text-muted fw-light">R$ 1798,80/ano</small></h1>
-            <ul class="mt-5 mb-4">
-              <li>Acessos Ilimitados</li>
-              <li>Relatório Completo</li> 
-              <li>Relatório Completo para Download</li>
-              <li>Relatório de estética</li>
-              <li>Suporte de Profissionais</li>
+            <ul class="mt-5 mb-4" listaPlanos>
+              <li class="itemPlanos">Acessos Ilimitados</li>
+              <li class="itemPlanos">Relatório Completo</li> 
+              <li class="itemPlanos">Relatório Completo para Download</li>
+              <li class="itemPlanos">Relatório de estética</li>
+              <li class="itemPlanos">Suporte de Profissionais</li>
             </ul>
             <button type="button" class="btn">Assinar</button>
           </div>

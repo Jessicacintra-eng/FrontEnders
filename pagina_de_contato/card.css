@@ -165,4 +165,10 @@ margin-bottom: 5rem;
 font-family: 'Dosis', sans-serif;
 }
 
-
+@media (max-width: 428px) {
+    .cartasT {
+        display: flex;
+        flex-direction: column;
+    }
+} 
+/* for mobile users */
